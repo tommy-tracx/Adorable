@@ -23,7 +23,7 @@ export default function Chat(props: {
       },
       sendExtraMessageFields: true,
       headers: {
-        "Adorable-App-Id": props.appId,
+        "TunaasDev-App-Id": props.appId,
       },
       api: "/api/chat",
       experimental_prepareRequestBody: (request) => {

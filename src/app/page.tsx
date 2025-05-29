@@ -128,7 +128,7 @@ export default function Home() {
             <Image
               className="dark:invert"
               src={LogoSvg}
-              alt="Adorable Logo"
+              alt="TunaasDev Logo"
               width={36}
               height={36}
             />

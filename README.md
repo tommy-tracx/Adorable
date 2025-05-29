@@ -1,4 +1,4 @@
-# Adorable
+# TunaasDev
 
 Open-source version of **Lovable** - an AI agent that can make websites and apps through a chat interface.
 
@@ -23,8 +23,8 @@ Open-source version of **Lovable** - an AI agent that can make websites and apps
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/freestyle-sh/adorable
-   cd adorable
+   git clone https://github.com/freestyle-sh/tunaasdev
+   cd tunaasdev
    ```
 
 2. Install dependencies:
@@ -42,7 +42,7 @@ Open-source version of **Lovable** - an AI agent that can make websites and apps
 
    ```
    # Database
-   DATABASE_URL=postgresql://username:password@localhost:5432/adorable
+   DATABASE_URL=postgresql://username:password@localhost:5432/tunaasdev
 
    # Anthropic API
    ANTHROPIC_API_KEY=your_anthropic_api_key
@@ -76,7 +76,7 @@ Go to the [Freestyle dashboard](https://admin.freestyle.sh/dashboard/domains) an
 Finally, add the following environment variable to your `.env` file:
 
 ```env
-PREVIEW_DOMAIN=<your-domain> # formatted like adorable.app
+PREVIEW_DOMAIN=<your-domain> # formatted like tunaasdev.app
 ```
 
 8. Run the development server:
